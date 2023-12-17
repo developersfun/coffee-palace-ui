@@ -49,10 +49,9 @@ ______
 
 Tip : React suggests using Next.js for server side development as it supports Routing, Data fetching, Server side rendering. But vanilla react applications are great too and all of the developers not necessarily need all the tech in Next.js. Also for learning, get started with Vanilla React App, and then go for Next.js.
 
-**The very first code :** 
+**The very first react app code, as basic entity :** 
 
-`
-  <!DOCTYPE html>
+    <!DOCTYPE html>
     <html lang="en">
       <head>
       <meta charset="UTF-8" />
@@ -92,5 +91,10 @@ Tip : React suggests using Next.js for server side development as it supports Ro
       </script>
     </body>
     </html>
-`
+
+**Creating the first App :** 
+
+1. `npm create-react-app <NAME_OF_YOUR_FIRST_APP>` and click `Y`.
+2. Run the App once completed using `npm start`.
+
 
