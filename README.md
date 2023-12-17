@@ -47,3 +47,50 @@ ______
 2. VITE : Fast refresh, fast budling, but needs setting up tools manually, like ESLint, Prettier, and Test Frameworks. Best for Prod Ready Applications.
 
 
+Tip : React suggests using Next.js for server side development as it supports Routing, Data fetching, Server side rendering. But vanilla react applications are great too and all of the developers not necessarily need all the tech in Next.js. Also for learning, get started with Vanilla React App, and then go for Next.js.
+
+**The very first code :** 
+
+`
+  <!DOCTYPE html>
+    <html lang="en">
+      <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>First</title>
+    </head>
+
+    <body>
+      <div id="root"></div>
+      <script
+        src="https://unpkg.com/react@18/umd/react.development.js"
+        crossorigin
+      ></script>
+      <script
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+        crossorigin
+      ></script>
+      <script>
+        function App() {
+          const [timeState, setTimeState] = React.useState(
+            new Date().toLocaleTimeString()
+          );
+          const time = new Date().toLocaleTimeString();
+          React.useEffect(function () {
+            setInterval(function () {
+              setTimeState(new Date().toLocaleTimeString());
+            }, 1000);
+          });
+          return React.createElement(
+            "header",
+            (mytime = `${time}`),
+            `Test Message at ${timeState}`
+          );
+        }
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(React.createElement(App));
+      </script>
+    </body>
+    </html>
+`
+
