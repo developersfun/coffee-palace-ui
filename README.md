@@ -239,7 +239,8 @@ Tip : React suggests using Next.js for server side development as it supports Ro
 ];`
 
 *Below are the basic Language Operations : 
-`// Data Getter
+```
+// Data Getter
 function getBooks() {
   return data;
 }
@@ -311,5 +312,6 @@ function getTotalReviews(book) {
   return goodReads + lib; //returns 0 instead of NaN when using collease operator
 }
 
-console.log(getTotalReviews(getBook(2)));`
+console.log(getTotalReviews(getBook(2)));
+```
 
