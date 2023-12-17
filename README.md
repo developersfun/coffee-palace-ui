@@ -51,6 +51,7 @@ Tip : React suggests using Next.js for server side development as it supports Ro
 
 **The very first react app code, as basic entity :** 
 
+```html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -91,6 +92,7 @@ Tip : React suggests using Next.js for server side development as it supports Ro
       </script>
     </body>
     </html>
+```
 
 **Creating the first App :** 
 
@@ -101,7 +103,7 @@ Tip : React suggests using Next.js for server side development as it supports Ro
 
 *For the data given below: 
 
-```
+```js
 const data = [
   {
     id: 1,
@@ -241,7 +243,7 @@ const data = [
 ```
 
 *Below are the basic Language Operations : 
-```
+```js
 // Data Getter
 function getBooks() {
   return data;
