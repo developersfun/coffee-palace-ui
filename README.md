@@ -101,7 +101,8 @@ Tip : React suggests using Next.js for server side development as it supports Ro
 
 *For the data given below: 
 
-`const data = [
+```
+const data = [
   {
     id: 1,
     title: "The Lord of the Rings",
@@ -236,7 +237,8 @@ Tip : React suggests using Next.js for server side development as it supports Ro
       },
     },
   },
-];`
+];
+```
 
 *Below are the basic Language Operations : 
 ```
