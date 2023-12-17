@@ -10,6 +10,7 @@ A :
   - There are several problems with using client side single page app using Vanilla JS.
   - Requires a lot of direct DOM manipulation and Traversing - Spagetti Code
   - Data is usually stored in DOM, shared across the entire app
+  -  HTML was the owner and JS was used inside a script tag. That is now reversed.
 
     
 Q : Why do FE framework exists?
@@ -18,5 +19,10 @@ A :
    - Correct way of structuring and writing code
    - Consistent way of building FE Applications
 
-    
+Q : States vs Props.
+A : 
+  - States are command state variables inside the class.
+  - Props are the parameters passed to other JSX Objects.
+
+
     
