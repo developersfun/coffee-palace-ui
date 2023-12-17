@@ -42,7 +42,7 @@ ______
 - Look for the URL "react.new" on web to redirect to the sandbox : codesandbox.io
 - For local setup, Install Node JS LTS version. Not sure if already using? Use commands "node -v" and "npm -v" in the terminal.
 
-**2 Ways of Creating the App : **
+**2 Ways of Creating the App :**
 1. Create React App : Jest, Prettier, ESLint inbuilt. Webpack inbuilt (old technology and Slow). Best for Tutorials. 
 2. VITE : Fast refresh, fast budling, but needs setting up tools manually, like ESLint, Prettier, and Test Frameworks. Best for Prod Ready Applications.
 
