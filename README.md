@@ -1,5 +1,5 @@
 # coffee-palace-ui
-React App For our Coffee Palace 
+React App For our Coffee Palace, calls the # coffee-palace Backend Application.
 
 JSX  : The javascripct code rendered by the object.
 
